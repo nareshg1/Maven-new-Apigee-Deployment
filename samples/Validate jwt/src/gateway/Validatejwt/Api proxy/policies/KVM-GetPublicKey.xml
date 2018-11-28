@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-GetPublicKey" mapIdentifier="DecryptionKey">
+    <DisplayName>KVM-GetPublicKey</DisplayName>
+    <Scope>environment</Scope>
+    <ExpiryTimeInSecs>60</ExpiryTimeInSecs>
+    <Get assignTo="public.publickey">
+        <Key>
+            <Parameter>myKey</Parameter>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

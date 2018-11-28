@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="ValidateJWT">
+    <Basepaths>/validatejwt</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1538081916719</CreatedAt>
+    <CreatedBy>RShrivasatava@slb.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ValidateJWT</DisplayName>
+    <LastModifiedAt>1542615555266</LastModifiedAt>
+    <LastModifiedBy>RShrivasatava@slb.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:506192f807b2f4424e3f7ec4bb7c81340b554ac602c7c1aba570dae45cd8c236a682ce8317c254734e7adc05a1ed2a644417faf2b26c764dbc3903e494acfcbc</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage-AddPublicKey</Policy>
+        <Policy>Decode-JWT</Policy>
+        <Policy>JavaScript-ToFilterPublicKey</Policy>
+        <Policy>KVM-AddPublicKeyInEnv</Policy>
+        <Policy>KVM-GetPublicKey</Policy>
+        <Policy>Validate-JWT-RS256</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-ToFilterPublicKey.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

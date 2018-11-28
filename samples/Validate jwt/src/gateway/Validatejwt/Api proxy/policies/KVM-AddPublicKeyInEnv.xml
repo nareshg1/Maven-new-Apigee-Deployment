@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-AddPublicKeyInEnv" mapIdentifier="DecryptionKey">
+    <DisplayName>KVM-AddPublicKeyInEnv</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Put override="true">
+        <Key>
+            <Parameter>myKey</Parameter>
+        </Key>
+        <Value ref="AssignedPublicKey"/>
+    </Put>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

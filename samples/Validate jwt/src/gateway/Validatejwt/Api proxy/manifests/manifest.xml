@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage-AddPublicKey" version="SHA-512:21679e0f9de392c0f73bdfc20ce4f0341db118c3cb36eb519b0542b30d8f88f078aabfffe7fc24eda024ac42c3c122304b2c87ff0c45faa19f020d66491f2dbd"/>
+        <VersionInfo resourceName="Decode-JWT" version="SHA-512:fa0c3dcf724536a9e46e6937bcdc33dd3e9f3aa02597f7446123d29c9326d37c0376ff9f7c53d346f132621b1efcf98c83165d6d21b08b20b6ab67a7c4db50b5"/>
+        <VersionInfo resourceName="JavaScript-ToFilterPublicKey" version="SHA-512:8d1fa103950423e5c518d347c5dc4c4f9eda4c1a90c5232906ffa393c886e2ea3b20d602d4d4376bf71caef7329020db3485455413b061dc697bf2debec08c51"/>
+        <VersionInfo resourceName="KVM-AddPublicKeyInEnv" version="SHA-512:0624f98892c1f88dcd38b9dbaa8a12c2a78d7d652958dc19c7344a13078e9e727f89cd1fa98eb42dd14854abc97551f90e05c8bf7ba580b63d532cd79e41cda5"/>
+        <VersionInfo resourceName="KVM-GetPublicKey" version="SHA-512:47fd49a556523a5c5e7f3bfb0963901bc6d1a93dbede3bdb71d7ee9c229b4af241f1dc2905166e18b5942506980648401cd8c2c64a88d55f1eff5a1702e802cf"/>
+        <VersionInfo resourceName="Validate-JWT-RS256" version="SHA-512:d70af840cc63c1bb68193d057804cdeb89c22d3be1ed3116a3264b492bac91e206839f3ebff3621424226348aa9c3ce524fe3435de0acd6345d5516c31d4e5c7"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:ca29b1423630291fb749f3754645c7ef92b03d5934e0847130a7d121d7a2df464481a94e18486132943912f97eafcd3a42d3266ce83f1a1bf12e9a31c005abb8"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-ToFilterPublicKey.js" version="SHA-512:9469d0ddbe0d86c6230944b0de6a042c4cae1a27956265383bc18be89a2955daf60a00aeab49d6f26ea47fb72558d0442a5eafa52f3214da01e340f899fa63c2"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:b49eabc89f77e1c8f2ba31bc49f40bd178b44f221eb51e6add54bfcbb88fd215794b8ce9edccd04b9e842eefdccc6f6471cb2f1c786baaf66e60a8951a8e83c4"/>
+    </TargetEndpoints>
+</Manifest>

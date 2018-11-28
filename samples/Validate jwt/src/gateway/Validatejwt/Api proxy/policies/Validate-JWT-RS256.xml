@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT async="false" continueOnError="true" enabled="true" name="Validate-JWT-RS256">
+    <DisplayName>Validate-JWT-RS256</DisplayName>
+    <Algorithm>RS256</Algorithm>
+    <Source>request.header.Authorization</Source>
+    <PublicKey>
+        <Value ref="public.publickey"/>
+    </PublicKey>
+    <Issuer>https://sts.windows.net/41ff26dc-250f-4b13-8981-739be8610c21/</Issuer>
+    <Audience>https://graph.windows.net</Audience>
+</VerifyJWT>
